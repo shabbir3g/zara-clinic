@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-logo {
+  width: 320px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.st-top-header-list svg {
+  width: 18px;
+  margin-right: 10px;
+  fill: #b5b5b5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.st-top-header .st-top-header-in {
+  height: 45px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: all 0.4s ease;
 }
-
-.App-link {
-  color: #61dafb;
+.st-top-header-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.st-top-header-list li {
+  margin-right: 35px;
+  color: #111;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.st-top-header-list li a {
+  color: #111;
+}
+.st-top-header-btn {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0cb8b6;
+  margin-left: 25px;
+}
+.st-top-header-btn:hover {
+  color: #0cb8b6;
+  opacity: 0.9;
+}
+ul.footer-services {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.footer-services li {
+  border-bottom: 1px solid;
+  padding: 9px 0;
+}
+ul.footer-services li a {
+  color: rgb(122, 122, 122);
+  text-decoration: none;
+  display: block;
+}
+.zara-btn.btn-primary {
+  color: #fff;
+  background-color: #0cb8b6;
+  border-color: #0cb8b6;
+}
+.zara-btn.btn-primary:hover {
+  background-color: #0cb8b6;
+  border-color: #0cb8b6;
+  opacity: 0.9;
+}
+.st-top-header {
+  overflow: hidden;
+  border-bottom: 1px solid rgba(12, 184, 182, 0.4);
 }

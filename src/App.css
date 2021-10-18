@@ -4,6 +4,13 @@ a {
 .header-logo {
   width: 320px;
 }
+.footer-logo {
+  width: 300px;
+}
+.slider-image {
+  position: relative;
+  top: 40px;
+}
 .st-top-header-list svg {
   width: 18px;
   margin-right: 10px;
@@ -68,7 +75,32 @@ ul.footer-services li a {
   border-color: #0cb8b6;
   opacity: 0.9;
 }
+.zara-text.text-primary {
+  color: #0cb8b6 !important;
+}
+
 .st-top-header {
   overflow: hidden;
   border-bottom: 1px solid rgba(12, 184, 182, 0.4);
+}
+.home-slide h1 {
+  font-size: 55px;
+  margin-top: 150px;
+  color: #111;
+}
+.home-slide p {
+  color: #111;
+  font-size: 18px;
+}
+.thumbnail {
+  overflow: hidden;
+}
+
+.thumbnail img {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.thumbnail:hover img {
+  transform: scale(1.2) rotate(5deg);
+  opacity: 0.5;
 }

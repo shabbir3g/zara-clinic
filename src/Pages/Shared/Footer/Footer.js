@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import footerLogo from '../../../images/logo-footer.png';
 
 const Footer = () => {
     return (
@@ -10,7 +11,7 @@ const Footer = () => {
                     <Col>
                     <Card className="border-0">
                         <Card.Body className=" bg-dark text-light">
-                        <Card.Title className="text-uppercase">About Us</Card.Title>
+                        <Link to="/"><img className="d-inline-block align-top footer-logo" src={footerLogo} alt="Footer Logo" /></Link>
                         <Card.Text style={{color: '#7a7a7a'}}>
                             Web It Limited is a on of the best online programming learing platform all over the world. We provide best quality services to our students. We also provide software If you need. We have a good quality online platform, where you can learn from here free or primium.
                         </Card.Text>

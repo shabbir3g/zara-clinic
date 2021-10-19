@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1, 
+        "name": "Dr. Addison Smith", 
+        "designation": "Cardiologists",
+        "thumbnail": "https://i.ibb.co/K53Hpvk/1.jpg"
+    }, 
+    {
+        "id": 2, 
+        "name": "Dr. Sarah Taylor", 
+        "designation": "Nephrologists",
+        "thumbnail": "https://i.ibb.co/QKryH2F/5.jpg"
+    }, 
+    {
+        "id": 3, 
+        "name": "Dr. Aiken Ward", 
+        "designation": "Dermatologists",
+        "thumbnail": "https://i.ibb.co/sW4b3RS/2.jpg"
+    }, 
+    {
+        "id": 4, 
+        "name": "Dr. Babatunde Jon", 
+        "designation": "Endocrinologists",
+        "thumbnail": "https://i.ibb.co/RDB2RqX/3.jpg"
+    }, 
+    {
+        "id": 5, 
+        "name": "Dr. Eachann Jhon", 
+        "designation": "Gastroenterologists",
+        "thumbnail": "https://i.ibb.co/QYnfbQX/4.jpg"
+    }, 
+    {
+        "id": 6, 
+        "name": "Daisy Gabriela", 
+        "designation": "Endocrinologists",
+        "thumbnail": "https://i.ibb.co/251zdVW/6.jpg"
+    }, 
+    {
+        "id": 7, 
+        "name": "Ronnie Aaron", 
+        "designation": "Dermatologists",
+        "thumbnail": "https://i.ibb.co/Y8KZXF8/7.jpg"
+    }, 
+    {
+        "id": 1, 
+        "name": "Edie Dee", 
+        "designation": "Cardiologists",
+        "thumbnail": "https://i.ibb.co/sKRVXnp/8.jpg"
+    }
+
+   
+]

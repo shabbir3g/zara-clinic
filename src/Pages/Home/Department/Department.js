@@ -1,6 +1,12 @@
 import React from 'react';
-import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
+import { Col, Container, Nav, Row, Tab, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import crutches from '../../../images/crutches.png'
+import xray from '../../../images/xray.png'
+import pulmonary from '../../../images/pulmonary.png'
+import cardiology from '../../../images/cardiology.png'
+import dentalCare from '../../../images/dental-care.png'
+import neurology from '../../../images/neurology.png'
 
 const Department = () => {
     return (
@@ -43,24 +49,76 @@ const Department = () => {
                                 </Col>
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To Crutches</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ipsam perspiciatis iure tenetur nostrum exercitationem porro quibusdam tempora quos veniam!</p>
+                                    <b>You are welcome to our Crutches Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">
-                        <h2>b</h2>
+                            <Row className="justify-content-center align-items-center my-5">
+                                <Col xs={12} md={6}>
+                                    <img className="img-fluid" src={xray} alt="" />
+                                </Col>
+                                <Col xs={12} md={6}>
+                                <h2>Welcome To X-ray</h2>
+                                    <b>You are welcome to our X-ray Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
+                                </Col>
+                            </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="3">
-                        <h2>c</h2>
+                            <Row className="justify-content-center align-items-center my-5">
+                                <Col xs={12} md={6}>
+                                    <img className="img-fluid" src={pulmonary} alt="" />
+                                </Col>
+                                <Col xs={12} md={6}>
+                                <h2>Welcome To Pulmonary</h2>
+                                    <b>You are welcome to our Pulmonary Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
+                                </Col>
+                            </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="4">
-                        <h2>d</h2>
+                            <Row className="justify-content-center align-items-center my-5">
+                                <Col xs={12} md={6}>
+                                    <img className="img-fluid" src={cardiology} alt="" />
+                                </Col>
+                                <Col xs={12} md={6}>
+                                <h2>Welcome To Cardiology</h2>
+                                    <b>You are welcome to our Cardiology Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
+                                </Col>
+                            </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="5">
-                        <h2>e</h2>
+                            <Row className="justify-content-center align-items-center my-5">
+                                <Col xs={12} md={6}>
+                                    <img className="img-fluid" src={dentalCare} alt="" />
+                                </Col>
+                                <Col xs={12} md={6}>
+                                <h2>Welcome To Dental care</h2>
+                                    <b>You are welcome to our Dental care Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
+                                </Col>
+                            </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="6">
-                        <h2>f</h2>
+                            <Row className="justify-content-center align-items-center my-5">
+                                <Col xs={12} md={6}>
+                                    <img className="img-fluid" src={neurology} alt="" />
+                                </Col>
+                                <Col xs={12} md={6}>
+                                <h2>Welcome To Neurology</h2>
+                                    <b>You are welcome to our Neurology Department to get our service.</b>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
+                                </Col>
+                            </Row>
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>

@@ -8,76 +8,46 @@ const FaqSection = () => {
             <Container>
                 <h2 className="text-center my-4 zara-text text-primary">Frequently Asked Questions</h2>
                 <p className="mb-5 text-center">If you have any questions you can contact with us? But you can find your common question's answer below here</p>
-                    <Row className="justify-content-center my-5">
-                        <Col xs={12} md={6}>
+                <Row className="justify-content-center my-5">
+                    <Col xs={12} md={6}>
                         <img className="img-fluid" src={faqImg} alt="" />
-                        </Col>
-                        <Col xs={12} md={6}>
+                    </Col>
+                    <Col xs={12} md={6}>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header> What is Medi solution? </Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
+                                    Madi solution is a solution, where you will get information abourt medicine. Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>How do I get a refill on my prescription? </Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
+                                    You can refill your prescription from our department. Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>How competent our total treatment?</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
+                                    This is one of the best quality of our clinic to get treatment form here. Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header>If I get sick what should I do? </Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
+                                    If you get any sickness then you have to call to our customer service to any information from us. Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="4">
                                 <Accordion.Header>What is emergency cary to your hospital?</Accordion.Header>
                                 <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.
+                                    In every 24/7 open our hospital Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            </Accordion>
-                        </Col>
-                    </Row>
-                </Container>
+                        </Accordion>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 };

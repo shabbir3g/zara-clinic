@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="contact-page mt-5">
                 <Container> 
                     <Row> 
-                        <Col xs lg="4">
+                        <Col xs={12} lg="4">
                             <h5>Get in Touch</h5>
                             <p>Mon-Fri: 8:00 – 20:00</p>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                             <a href="mailto:contact@webitltd.com">mostafizshabbir@gmail.com</a>
                             </div>
                         </Col>
-                        <Col xs lg="8">
+                        <Col xs={12} lg="8">
                         <div id="contact-form">
                             <div className="row contact-row">
                             <div className="col-md-6 contact-name">

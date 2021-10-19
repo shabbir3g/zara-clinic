@@ -264,8 +264,10 @@ textarea#comment {
     width: 50%;
     margin: auto;
   }
-  .navbar > .container.header-container {
-    flex-wrap: nowrap;
+  .our-department .nav-item {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
   }
 }
 @media only screen and (max-width: 441px) {
@@ -273,8 +275,10 @@ textarea#comment {
     font-size: 13px;
     margin-left: 10px;
   }
-  .navbar > .container.header-container {
-    flex-wrap: nowrap;
+  .our-department .nav-item {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
   }
 }
 @media only screen and (min-width: 689px) and (max-width: 991px) {
@@ -292,7 +296,9 @@ textarea#comment {
     align-items: center;
     flex-direction: row;
   }
-  .navbar > .container.header-container {
-    flex-wrap: nowrap;
+  .our-department .nav-item {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
   }
 }

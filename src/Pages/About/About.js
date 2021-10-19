@@ -33,7 +33,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row className="my-5"> 
-                    <Col xs={12} lg={8}> 
+                    <Col className="my-5" xs={12} lg={8}> 
                         <h3>Who we are</h3>
                         <h2> Psychology Clinic</h2>
                         <b><i>Manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</i></b> 
@@ -43,7 +43,7 @@ const About = () => {
                         <p>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</p>
                         <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Contact Us</Button></Link>
                     </Col>
-                    <Col xs={12} lg={4}> 
+                    <Col className="my-5" xs={12} lg={4}> 
                         <img className="img-fluid" src={clinic} alt="" />
                     </Col>
                 </Row>

@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
 
-    const {createUserEmailPassword, error} = useAuth();
+    const {createUserEmailPassword, setError, error} = useAuth();
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -24,11 +24,29 @@ const Register = () => {
     const changeUserPassWord2 = e =>{
         setPassWord2(e.target.value);
     }
-    const handleRegistrationUser = () =>{
-        if(passWord === passWord2){
-            createUserEmailPassword(email, passWord, name);
-           
+    const handleRegistrationUser = e =>{
+
+        
+
+        e.preventDefault();
+        if(passWord !== passWord2){
+            setError('Confirm password not matched')
+            return;
         }
+        else if (passWord.length < 6) {
+            setError('Password Must be at least 6 characters long.')
+            return;
+          }
+          else if (!/(?=.*[A-Z].*[A-Z])/.test(passWord)) {
+            setError('Password Must contain 2 upper case');
+            return;
+          }
+          else{
+            createUserEmailPassword(email, passWord, name);
+            setError("");
+          }
+
+         
        
     }
 

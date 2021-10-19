@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 
 
 const Login = () => {
-    const {signInWithGoogle, signInUserEmailPassword} = useAuth();
+    const {signInWithGoogle, signInUserEmailPassword, setError, error} = useAuth();
 
     const [email, setEmail] = useState('');
     const [passWord, setPassWord] = useState('');
@@ -28,7 +28,10 @@ const Login = () => {
 
         .then(result =>{
             history.push(redurectURI)
-        });
+        })
+        .catch((error) => {
+            setError(error.message);
+        })
        
 
     }
@@ -66,6 +69,7 @@ const Login = () => {
                 Sign In
                 </Button>
                 </div>
+                <p className="text-center text-danger mt-3">{error}</p>
                 <Link className="text-center mt-2 text-decoration-none d-block zara-text text-primary" to="/register">Don't have Account? Please Register</Link>
                 <div className="gap-2 my-5 text-center">
                 <Button variant="warning" onClick={handleWithGoogleLogin} className="btn btn-primary mb-5 ">Login With Google</Button>

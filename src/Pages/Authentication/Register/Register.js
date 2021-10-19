@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
 
-    const {createUserEmailPassword} = useAuth();
+    const {createUserEmailPassword, error} = useAuth();
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -33,12 +33,6 @@ const Register = () => {
     }
 
     
-
-
-
-
-
-
     return (
         <div>
            <div className="login-form my-5 mx-auto"> 
@@ -78,6 +72,7 @@ const Register = () => {
                     Registration
                 </Button>
                 </div>
+                <p className="text-center text-danger mt-3">{error}</p>
                 <Link className="text-center mt-2 text-decoration-none d-block zara-text text-primary" to="/login">Already have an account</Link>
            </div>
         </div>

@@ -1,3 +1,6 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
 a {
   text-decoration: none !important;
 }
@@ -219,6 +222,27 @@ textarea#comment {
 }
 .slider-image {
   width: 100%;
+}
+
+.our-department .nav-item .nav-link {
+  background: #0cb8b6;
+  color: #fff;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.our-department .nav-item .nav-link:focus,
+.our-department .nav-item .nav-link:hover,
+.our-department .nav-item .nav-link.active {
+  color: #0cb8b6;
+  background: #fff;
+  border: 1px solid #0cb8b6;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #0cb8b6 !important;
 }
 
 @media only screen and (max-width: 688px) {

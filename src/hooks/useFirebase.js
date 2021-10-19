@@ -8,6 +8,7 @@ const useFirebase = () => {
 
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState("");
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -33,7 +34,7 @@ const useFirebase = () => {
         
         })
         .catch((error) => {
-            console.log(error.message);
+            setUser(error.message);
         })
         .finally(() => setIsLoading(false))
     
@@ -79,6 +80,8 @@ const useFirebase = () => {
         createUserEmailPassword,
         signInUserEmailPassword,
         isLoading,
+        setError, 
+        error,
         user
     }
 

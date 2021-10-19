@@ -10,7 +10,7 @@ import neurology from '../../../images/neurology.png'
 
 const Department = () => {
     return (
-        <div>
+        <div className="our-department">
             <Container>
                 <h2 className="text-center my-4 zara-text text-primary">Our Department</h2>
                 <p className="mb-5 text-center">Our Every Department is ready for you. We will provide our best quality services.   We will provide  <br />  25% discount any poor patient in all over the country. So don't be late come fast here</p>

@@ -6,6 +6,7 @@ import logo from '../../../images/logo.png'
 
 const Header = () => {
     const {user, logOut} = useAuth();
+
     return (
         <div>
 
@@ -28,8 +29,13 @@ const Header = () => {
               
             <div> 
                 <> 
-                    <a href="#appointment" className="st-top-header-btn st-smooth-move">{user.displayName}</a> 
-                    <a href="#appointment" className="st-top-header-btn st-smooth-move"> <Button className=" zara-btn" variant="primary" size="sm" onClick={logOut} >Log Out</Button></a>
+                    <span className="st-top-header-btn st-smooth-move">{user.displayName}</span> 
+                   
+                        <span className="st-top-header-btn st-smooth-move"><img src={user.photoURL} alt="" /></span> 
+                     
+                     
+                    
+                    <span className="st-top-header-btn st-smooth-move"> <Button className=" zara-btn" variant="primary" size="sm" onClick={logOut} >Log Out</Button></span>
 
                 </>
             
@@ -40,7 +46,7 @@ const Header = () => {
         </div>
            : '' }
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Container>
+        <Container className="header-container">
         <Navbar.Brand as={Link} to="/">
         <img
             src={logo}

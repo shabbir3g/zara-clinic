@@ -44,7 +44,7 @@ const Login = () => {
 
     return (
         <div>
-           <div className="login-form mt-5 mx-auto w-25"> 
+           <div className="login-form mt-5 mx-auto"> 
               
                 <InputGroup className="mb-3">
                 <FormControl

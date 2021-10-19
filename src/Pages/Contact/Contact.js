@@ -40,7 +40,7 @@ const Contact = () => {
                                 {Envelope}
                             </div>
                             <h6>E-mail</h6>
-                            <a href="mailto:contact@webitltd.com">contact@webitltd.com</a>
+                            <a href="mailto:contact@webitltd.com">mostafizshabbir@gmail.com</a>
                             </div>
                         </Col>
                         <Col xs lg="8">

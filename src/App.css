@@ -47,6 +47,11 @@ a {
   color: #0cb8b6;
   margin-left: 25px;
 }
+.st-top-header-btn img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
 .st-top-header-btn:hover {
   color: #0cb8b6;
   opacity: 0.9;
@@ -208,4 +213,62 @@ textarea#comment {
 .btn.btn-color:hover {
   background-color: #111;
   color: #fff;
+}
+.login-form {
+  width: 25%;
+}
+.slider-image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 688px) {
+  .login-form {
+    width: 75%;
+  }
+  .st-top-header .st-top-header-in {
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .header-logo,
+  .footer-logo {
+    width: 90%;
+  }
+  .slider-image {
+    width: 50%;
+    margin: auto;
+  }
+  .navbar > .container.header-container {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 441px) {
+  .st-top-header-btn {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .navbar > .container.header-container {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .slider-image {
+    width: 70%;
+    margin: auto;
+  }
+  .login-form {
+    width: 50%;
+  }
+  .st-top-header .st-top-header-in {
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .navbar > .container.header-container {
+    flex-wrap: nowrap;
+  }
 }

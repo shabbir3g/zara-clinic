@@ -8,7 +8,7 @@ a {
   width: 320px;
 }
 .footer-logo {
-  width: 300px;
+  width: 215px;
 }
 .slider-image {
   position: relative;
@@ -243,6 +243,13 @@ textarea#comment {
 .accordion-button:not(.collapsed) {
   color: #fff !important;
   background-color: #0cb8b6 !important;
+}
+.not-found {
+  height: 100vh;
+  text-align: center;
+}
+.not-found img {
+  margin: auto;
 }
 
 @media only screen and (max-width: 688px) {

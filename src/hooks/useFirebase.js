@@ -1,7 +1,7 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initialAuthentication from "../Pages/Authentication/Firebase/Firebase.init";
-
+import { useHistory } from "react-router-dom";
 
 initialAuthentication();
 const useFirebase = () => {
@@ -12,6 +12,8 @@ const useFirebase = () => {
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
+
+    const history = useHistory();
 
     const signInWithGoogle = () => {
         
@@ -45,7 +47,7 @@ const useFirebase = () => {
         
     
     }
-
+    
     const logOut = () => {
         setIsLoading(true)
         signOut(auth)
@@ -56,6 +58,10 @@ const useFirebase = () => {
             console.log(error.message);
         })
         .finally(() => setIsLoading(false))
+
+       
+        
+        history?.push("/login");
     }
 
     useEffect(() => {

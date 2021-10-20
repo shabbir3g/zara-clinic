@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import { Button, FormControl, InputGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { useHistory } from "react-router-dom";
+
 
 const Register = () => {
+
+    const history = useHistory();
 
     const {createUserEmailPassword, setError, error} = useAuth();
 
@@ -26,8 +30,6 @@ const Register = () => {
     }
     const handleRegistrationUser = e =>{
 
-        
-
         e.preventDefault();
         if(passWord !== passWord2){
             setError('Confirm password not matched')
@@ -44,6 +46,8 @@ const Register = () => {
           else{
             createUserEmailPassword(email, passWord, name);
             setError("");
+
+            history?.push("/");
           }
 
          
@@ -57,6 +61,7 @@ const Register = () => {
               
                 <InputGroup className="mb-3">
                 <FormControl 
+                    type="text"
                     onBlur={changeUserName}
                     placeholder="Name"
                     aria-label="name"
@@ -64,6 +69,7 @@ const Register = () => {
                 </InputGroup>
                 <InputGroup className="mb-3">
                 <FormControl
+                    type="email"
                     onBlur={changeUserEmail}
                     placeholder="Email"
                     aria-label="email"

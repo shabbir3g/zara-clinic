@@ -1,8 +1,8 @@
 import React from 'react';
-import error from '../../images/404_Error.jpg'
+import error from '../../images/404.png'
 const NotFound = () => {
     return (
-        <div className="not-found">
+        <div className="not-found mb-5">
             <img className="img-fluid" src={error} alt="" />
         </div>
     );

@@ -20,6 +20,8 @@ const Login = () => {
         history.push(redurectURI)
     });
 
+   
+
     }
 
     const handleLoginEmailPassword = ()  =>{
@@ -52,6 +54,7 @@ const Login = () => {
               
                 <InputGroup className="mb-3">
                 <FormControl
+                    type="email"
                     onBlur={changeUserEmail}
                     placeholder="Email"
                     aria-label="email"

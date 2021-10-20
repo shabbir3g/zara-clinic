@@ -7,7 +7,7 @@ import logo from '../../../images/logo.png'
 const Header = () => {
     const {user, logOut} = useAuth();
 
-    console.log(user.photoURL);
+    console.log(user);
 
     return (
         <div>

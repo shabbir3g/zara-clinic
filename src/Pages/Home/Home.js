@@ -12,8 +12,6 @@ const Home = () => {
             <Services></Services>
             <Department></Department>
             <FaqSection></FaqSection>
-            
-
         </div>
     );
 };

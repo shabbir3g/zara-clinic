@@ -3,6 +3,15 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import footerLogo from '../../../images/logo-footer.png';
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+const Facebook = <FontAwesomeIcon icon={faFacebook} />;
+const Twitter = <FontAwesomeIcon icon={faTwitter} />;
+const Instagram = <FontAwesomeIcon icon={faInstagram} />;
+const Linkedin = <FontAwesomeIcon icon={faLinkedin} />;
+const Youtube = <FontAwesomeIcon icon={faYoutube} />;
+
 const Footer = () => {
     return (
         <div className="footer bg-dark mt-0" > 
@@ -48,11 +57,12 @@ const Footer = () => {
                         <Card.Body className=" bg-dark text-light">
                         <Card.Title className="text-uppercase">Follow Us</Card.Title>
                         
-                            <ul className='footer-services'>
-                                <li><a rel="noreferrer" target="_blank" href="http://facebook.com">Facebook</a></li>
-                                <li><a rel="noreferrer" target="_blank" href="http://youtube.com">Youtube</a></li>
-                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com">Linkedin</a></li>
-                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com">Instragram</a></li>
+                            <ul className='footer-follow-us'>
+                                <li><a rel="noreferrer" target="_blank" href="http://facebook.com">{Facebook}</a></li>
+                                <li><a rel="noreferrer" target="_blank" href="http://twitter.com">{Twitter}</a></li>
+                                <li><a rel="noreferrer" target="_blank" href="https://www.instagram.com">{Instagram}</a></li>
+                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com">{Linkedin}</a></li>
+                                <li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com">{Youtube}</a></li>
                             </ul>
                         
                         </Card.Body>

@@ -54,8 +54,9 @@ const About = () => {
                 <Row xs={1} md={4} className="g-4 doctor-list">
                 { 
                     doctors.map(doctor => <Doctor 
+                        key={doctor.id}
                         doctor={doctor}
-                    key={doctor.id}
+                    
                     ></Doctor>)
                 }
                 </Row>

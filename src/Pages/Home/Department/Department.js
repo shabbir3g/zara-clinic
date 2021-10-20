@@ -63,7 +63,7 @@ const Department = () => {
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To X-ray</h2>
                                     <b>You are welcome to our X-ray Department to get our service.</b>
-                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <p>We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here. Our Every Department is ready for you.</p>
                                     <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>
@@ -76,7 +76,7 @@ const Department = () => {
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To Pulmonary</h2>
                                     <b>You are welcome to our Pulmonary Department to get our service.</b>
-                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <p>We will provide 25% discount any poor patient in all over the country. Our Every Department is ready for you. We will provide our best quality services. So don't be late come fast here</p>
                                     <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>
@@ -89,7 +89,7 @@ const Department = () => {
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To Cardiology</h2>
                                     <b>You are welcome to our Cardiology Department to get our service.</b>
-                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <p>Our Every Department is ready for you. We will provide our best quality services. So don't be late come fast here. We will provide 25% discount any poor patient in all over the country. </p>
                                     <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>
@@ -102,7 +102,7 @@ const Department = () => {
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To Dental care</h2>
                                     <b>You are welcome to our Dental care Department to get our service.</b>
-                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <p>We will provide 25% discount any poor patient in all over the country. So don't be late come fast here. Our Every Department is ready for you. We will provide our best quality services</p>
                                     <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>
@@ -115,7 +115,7 @@ const Department = () => {
                                 <Col xs={12} md={6}>
                                 <h2>Welcome To Neurology</h2>
                                     <b>You are welcome to our Neurology Department to get our service.</b>
-                                    <p>Our Every Department is ready for you. We will provide our best quality services We will provide 25% discount any poor patient in all over the country. So don't be late come fast here</p>
+                                    <p>We will provide our best quality services We will provide 25% discount any poor patient in all over the country. Our Every Department is ready for you. So don't be late come fast here</p>
                                     <Link to="/contact"><Button className="zara-btn" variant="primary" size="md" >Appointment</Button></Link>
                                 </Col>
                             </Row>

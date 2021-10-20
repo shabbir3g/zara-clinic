@@ -268,7 +268,7 @@ ul.footer-follow-us {
 }
 ul.footer-follow-us li {
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 8px;
 }
 ul.footer-follow-us li a {
   display: block;
@@ -278,15 +278,14 @@ ul.footer-follow-us li a:hover svg {
   background: #fff;
 }
 ul.footer-follow-us li a svg {
-  font-size: 41px;
   transition-duration: 0.2s;
   background: #fff;
   color: #fff;
   text-align: center;
   padding: 6px 7px;
   border-radius: 50%;
-  height: 40px;
-  width: 40px !important;
+  height: 35px;
+  width: 35px !important;
   display: block;
 }
 
@@ -305,6 +304,8 @@ ul.footer-follow-us li a .fa-linkedin {
 ul.footer-follow-us li a .fa-youtube {
   color: #ff0000;
 }
+
+/* Responsive style  */
 
 @media only screen and (max-width: 688px) {
   .login-form {
@@ -343,6 +344,16 @@ ul.footer-follow-us li a .fa-youtube {
   }
   .footer p {
     font-size: 10px;
+  }
+  .footer .card-title.h5 {
+    text-align: center;
+  }
+  ul.footer-services {
+    text-align: center;
+  }
+  .footer p {
+    font-size: 15px;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 689px) and (max-width: 991px) {

@@ -23,7 +23,7 @@ const About = () => {
                         <img className="img-fluid" src={doctor} alt="" />
                     </Col>
                     <Col xs={12} lg={8}> 
-                        <h2>About Our Clinic</h2>
+                        <h1 className="title-main">About Us</h1>
                         <b><i>There's nothing we wont try. Never heard the word impossible. This time there's no stopping us. Michael Knight a young loner on a crusade to champion the cause.</i></b>
                         <br />
                         <br />
@@ -34,7 +34,7 @@ const About = () => {
                 </Row>
                 <Row className="my-5"> 
                     <Col className="my-5" xs={12} lg={8}> 
-                        <h3>Who we are</h3>
+                        <h1 className="title-main">Who we are</h1>
                         <h2> Psychology Clinic</h2>
                         <b><i>Manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</i></b> 
                         <br />

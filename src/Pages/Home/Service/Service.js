@@ -21,7 +21,7 @@ const Service = (props) => {
                     <Card.Text>
                         {desc.substring(0, 70)}
                     </Card.Text>
-                    <Button onClick={handleServiceDetails} className="zara-btn" variant="primary">Detail</Button>
+                    <Button onClick={handleServiceDetails} className="zara-btn" variant="primary">Read More</Button>
                     </Card.Body>
                 </Card>
             </Col>

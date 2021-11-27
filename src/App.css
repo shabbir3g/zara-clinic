@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rubik&display=swap");
+/* Common style  */
+body,
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+}
+h1.title-main {
+  color: #f0f0f0;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
 /*Common Style*/
 a {
   text-decoration: none !important;
@@ -5,21 +21,21 @@ a {
 
 .zara-btn.btn-primary {
   color: #fff;
-  background-color: #0cb8b6;
-  border-color: #0cb8b6;
+  background-color: #00b8f0;
+  border-color: #00b8f0;
 }
 .zara-btn.btn-primary:hover {
-  background-color: #0cb8b6;
-  border-color: #0cb8b6;
+  background-color: #00b8f0;
+  border-color: #00b8f0;
   opacity: 0.9;
 }
 .zara-text.text-primary {
-  color: #0cb8b6 !important;
+  color: #00b8f0 !important;
 }
 
 /*Header Style*/
 .header-logo {
-  width: 320px;
+  width: 250px;
 }
 
 .st-top-header-list svg {
@@ -44,7 +60,7 @@ a {
 }
 .st-top-header-list li {
   margin-right: 35px;
-  color: #111;
+  color: #fff;
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -55,7 +71,7 @@ a {
 .st-top-header-btn {
   font-size: 15px;
   font-weight: 700;
-  color: #0cb8b6;
+  color: #00b8f0;
   margin-left: 25px;
 }
 .st-top-header-btn img {
@@ -64,13 +80,14 @@ a {
   border-radius: 50%;
 }
 .st-top-header-btn:hover {
-  color: #0cb8b6;
+  color: #00b8f0;
   opacity: 0.9;
 }
 
 .st-top-header {
   overflow: hidden;
-  border-bottom: 1px solid rgba(12, 184, 182, 0.4);
+  border-bottom: 1px solid #00b8f0;
+  background: #032033;
 }
 
 .slider-image {
@@ -120,17 +137,18 @@ a {
   height: 50px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid #0cb8b6;
+  border: 2px solid #00b8f0;
   text-align: center;
   position: absolute;
   left: 0;
 }
 .contact-icon svg {
   font-size: 23px;
-  color: #0cb8b6;
+  color: #00b8f0;
   line-height: 33px;
   margin-top: 11px;
 }
+
 .contact-item h6 {
   font-size: 15px;
   margin-top: 5px;
@@ -212,7 +230,7 @@ textarea#comment {
 }
 
 .our-department .nav-item .nav-link {
-  background: #0cb8b6;
+  background: #00b8f0;
   color: #fff;
   margin-right: 5px;
   border: 1px solid transparent;
@@ -222,14 +240,14 @@ textarea#comment {
 .our-department .nav-item .nav-link:focus,
 .our-department .nav-item .nav-link:hover,
 .our-department .nav-item .nav-link.active {
-  color: #0cb8b6;
+  color: #00b8f0;
   background: #fff;
-  border: 1px solid #0cb8b6;
+  border: 1px solid #00b8f0;
 }
 
 .accordion-button:not(.collapsed) {
   color: #fff !important;
-  background-color: #0cb8b6 !important;
+  background-color: #00b8f0 !important;
 }
 .not-found {
   text-align: center;
@@ -241,9 +259,15 @@ textarea#comment {
 }
 
 /* Footer Style  */
-
+.footer {
+  background-color: #032033;
+}
 .footer-logo {
   width: 300px;
+  margin-bottom: 20px;
+}
+.footer .card {
+  background-color: #032033;
 }
 
 ul.footer-services {
@@ -252,11 +276,10 @@ ul.footer-services {
   list-style: none;
 }
 ul.footer-services li {
-  border-bottom: 1px solid;
-  padding: 9px 0;
+  padding: 5px 0;
 }
 ul.footer-services li a {
-  color: rgb(122, 122, 122);
+  color: #fff;
   text-decoration: none;
   display: block;
 }
@@ -274,8 +297,8 @@ ul.footer-follow-us li a {
   display: block;
 }
 ul.footer-follow-us li a:hover svg {
-  color: #0cb8b6;
-  background: #fff;
+  color: #000;
+  background: #fff !important;
 }
 ul.footer-follow-us li a svg {
   transition-duration: 0.2s;
@@ -289,22 +312,11 @@ ul.footer-follow-us li a svg {
   display: block;
 }
 
-ul.footer-follow-us li a .fa-facebook {
-  color: #1877f2;
+ul.footer-follow-us li a svg {
+  background: transparent !important;
+  border: 1px solid #fff;
+  color: #fff;
 }
-ul.footer-follow-us li a .fa-twitter {
-  color: #1da1f2;
-}
-ul.footer-follow-us li a .fa-instagram {
-  color: #c32aa3;
-}
-ul.footer-follow-us li a .fa-linkedin {
-  color: #0a66c2;
-}
-ul.footer-follow-us li a .fa-youtube {
-  color: #ff0000;
-}
-
 /* Responsive style  */
 
 @media only screen and (max-width: 688px) {
